@@ -103,7 +103,7 @@ if [ ! -e inst/no-npsol -a -r inst/npsol/checksum ]; then
 	*86) omx_arch=x86 ;;
 	*)
 	    echo "Host arch is not recognized: ${host_cpu}"
-	    exit 1
+	    #exit 1
 	    ;;
     esac
 
